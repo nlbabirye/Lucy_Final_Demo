@@ -1,0 +1,50 @@
+body{
+	background-color:#d2f0fb;
+}
+p{
+	color:red;
+}
+
+div{
+	background-color: grey;
+	margin-left: 20px;
+	border: 10px green;
+	height:200px;
+	width: 50%;
+}
+
+/* this demonstrates class selectors*/
+
+.first{
+	font-weight:bold;
+	}
+.done{ 
+	text-decoration: line-through;
+	}
+	
+div.header{
+	background-color: #059cd3;
+	margin-left: 50px;
+	border: 10px green;
+	height:100px;
+width: 40%;}
+	
+/* demonstrating use of ID selectors*/
+ #one{
+	 background-color: brown;
+	 color:white;
+	 }
+/* demonstrating text formating*/
+
+/* text alignment*/
+
+.alignment{
+	text-align: center;
+}
+/* text decoration*/
+.u{ text-decoration:underline;}
+.tr{text-decoration: line-through;}
+.ov{text-decoration:overline;}
+.uppercase{text-transform:uppercase;}
+/* text shadow*/
+.shadow{text-shadow:3px 5px blue;}
